@@ -73,7 +73,7 @@ On windows, arguments can be passed the same way inside a shortcut properties.
 Notice that, when using this method, it needs two identifiers to apply the values to the correct script, and those are the `script_name`, that refers to the name of the script, that is defined in the script code itself (in this case, the name is `mpv-splice`
 
 ## Using a config file
-In order to use a config file, a `.conf` file must be created inside a directory called `script-ops`, in the same directory as the `scripts` directory is located. If it doesn't exist, create it and put the config file inside.
+To use a config file, create a `.conf` file inside the `script-opts` directory. If `script-opts` doesn't exist, create it next to the `scripts` directory and put the config file inside it.
 The config file name must match the script name, defined in the code. In this case, it will be `mpv-splice.conf` and its contents are simply `key=value` pairs, as follows:
 ```
 optionA=valueA
